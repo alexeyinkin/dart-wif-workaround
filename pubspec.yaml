@@ -1,10 +1,10 @@
 name: wif_workaround
 description: |
-  A workaround to use Workflow Identity Federation with googleapis_auth,
+  A workaround to use Workload Identity Federation with googleapis_auth,
   calls gcloud CLI to get the access token.
 repository: https://github.com/alexeyinkin/dart-wif-workaround
 
-version: 0.1.0
+version: 0.1.1
 
 environment:
   sdk: ^3.0.0
@@ -14,5 +14,4 @@ dependencies:
   http: ^1.0.0
 
 dev_dependencies:
-  gcloud: ^0.8.12
   total_lints: ^3.2.0

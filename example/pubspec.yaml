@@ -1,0 +1,7 @@
+name: wif_workaround_example
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  gcloud: ^0.8.12
+  wif_workaround: ^0.1.0
